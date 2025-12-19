@@ -97,7 +97,7 @@ color_channels = ("H", "S", "V")
 # 1 micro , 2 slightly larger
 lbp_radius = 1
 # neighbors
-# points = 8 * raduis
+# points = 8 * radius
 lbp_points = 8
 # encoded patterns
 lbp_method = "uniform"
