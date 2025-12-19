@@ -5,6 +5,8 @@
 # [0] → src
 # [1] → MSI_waste_sorting
 
+from pathlib import Path
+
 root_dir = Path(__file__).resolve().parents[1]
 data_dir = root_dir / "dataset"
 raw_dir = data_dir/ "raw"
